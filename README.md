@@ -1,4 +1,4 @@
-# FastAPI Project using LLM
+# LLM Application development using FastAPI
 
 This project demonstrates a FastAPI application designed to provide detailed information about the NextGen Smartwatch. It includes a backend API for querying smartwatch features and a React frontend for interacting with the API.
 
