@@ -1,0 +1,34 @@
+"text": """Technical Specifications - NextGen Smartwatch
+
+Display: 1.4" AMOLED, 454 x 454 pixels
+Processor: Dual-core 1.2 GHz
+Memory: 1GB RAM, 8GB Storage
+Sensors: Heart rate, SpO2, Accelerometer, Gyroscope, Altimeter
+Connectivity: Bluetooth 5.0, Wi-Fi, NFC, GPS
+Battery: 420mAh, up to 7 days typical use
+Water Resistance: 5 ATM (up to 50 meters)
+Compatibility: iOS 12+ and Android 8.0+
+Dimensions: 44 x 44 x 10.7 mm
+Weight: 36g (without strap)
+
+For detailed specifications, refer to engineering document ENG-SPEC-023.""",
+        "metadata": {
+            "doc_id": "TECH-SPEC-001",
+            "title": "Technical Specifications - NextGen Smartwatch",
+            "description": "Detailed technical specifications for the NextGen Smartwatch.",
+            "author": "John Smith",
+            "department": "Engineering",
+            "creation_date": "2024-09-20T09:15:00Z",
+            "last_modified": "2024-09-20T11:30:00Z",
+            "version": "2.0",
+            "file_type": "text/plain",
+            "file_size": 480,
+            "language": "English",
+            "keywords": ["smartwatch", "specifications", "technical details"],
+            "product_category": "Wearable Technology",
+            "product_name": "NextGen Smartwatch",
+            "access_level": "Internal",
+            "related_documents": ["PROD-LAUNCH-001", "ENG-SPEC-023"],
+            "status": "Final"
+        }
+        

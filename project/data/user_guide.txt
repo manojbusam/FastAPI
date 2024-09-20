@@ -1,0 +1,47 @@
+"text": """User Guide: NextGen Smartwatch
+
+1. Getting Started
+   - Charging your device
+   - Pairing with your smartphone
+   - Initial setup and customization
+
+2. Basic Operations
+   - Navigating the interface
+   - Customizing watch faces
+   - Managing notifications
+
+3. Health and Fitness Features
+   - Setting up health monitoring
+   - Using the workout modes
+   - Viewing and interpreting health data
+
+4. Smart Assistant
+   - Activating voice commands
+   - Setting reminders and alarms
+   - Using the AI-powered suggestions
+
+5. Troubleshooting
+   - Common issues and solutions
+   - Updating firmware
+   - Contacting support
+
+For video tutorials and FAQs, visit support.nextgentech.com""",
+        "metadata": {
+            "doc_id": "USER-GUIDE-001",
+            "title": "User Guide: NextGen Smartwatch",
+            "description": "Comprehensive user guide for the NextGen Smartwatch, covering setup, features, and troubleshooting.",
+            "author": "Sarah Johnson",
+            "department": "Customer Support",
+            "creation_date": "2024-09-21T13:00:00Z",
+            "last_modified": "2024-09-22T10:20:00Z",
+            "version": "1.0",
+            "file_type": "text/plain",
+            "file_size": 720,
+            "language": "English",
+            "keywords": ["smartwatch", "user guide", "instructions", "troubleshooting"],
+            "product_category": "Wearable Technology",
+            "product_name": "NextGen Smartwatch",
+            "access_level": "Public",
+            "related_documents": ["PROD-LAUNCH-001", "TECH-SPEC-001"],
+            "status": "Published"
+        }

@@ -1,0 +1,43 @@
+"text": """Product Launch: NextGen Smartwatch
+
+Key Features:
+1. Advanced Health Monitoring: Tracks heart rate, blood oxygen, and stress levels.
+2. Extended Battery Life: Up to 7 days on a single charge.
+3. AI-Powered Personal Assistant: Contextual reminders and suggestions.
+4. Customizable Watch Faces: Over 1000 designs available.
+5. Water Resistant: Up to 50 meters.
+
+Target Market:
+- Health-conscious individuals
+- Tech enthusiasts
+- Fitness enthusiasts
+
+Launch Date: October 15, 2024
+Retail Price: $299.99
+
+For more information, contact product@nextgentech.com""",
+        "metadata": {
+            "doc_id": "PROD-LAUNCH-001",
+            "title": "Product Launch: NextGen Smartwatch",
+            "description": "Launch document for the NextGen Smartwatch, including features, target market, and pricing information.",
+            "author": "Jane Doe",
+            "department": "Product Marketing",
+            "creation_date": "2024-09-19T10:30:00Z",
+            "last_modified": "2024-09-19T14:45:00Z",
+            "version": "1.2",
+            "file_type": "text/plain",
+            "file_size": 512,
+            "language": "English",
+            "keywords": ["smartwatch", "health monitoring", "AI assistant", "wearable technology"],
+            "product_category": "Wearable Technology",
+            "product_name": "NextGen Smartwatch",
+            "launch_date": "2024-10-15",
+            "price": 299.99,
+            "currency": "USD",
+            "target_market": ["Health-conscious individuals", "Tech enthusiasts", "Fitness enthusiasts"],
+            "access_level": "Internal",
+            "related_documents": ["PROD-SPEC-001", "MARKETING-PLAN-003"],
+            "status": "Final Draft"
+        }
+
+    
