@@ -1,4 +1,4 @@
-"text": """User Guide: NextGen Smartwatch
+User Guide: NextGen Smartwatch
 
 1. Getting Started
    - Charging your device
@@ -25,7 +25,8 @@
    - Updating firmware
    - Contacting support
 
-For video tutorials and FAQs, visit support.nextgentech.com""",
+For video tutorials and FAQs, visit support.nextgentech.com
+
         "metadata": {
             "doc_id": "USER-GUIDE-001",
             "title": "User Guide: NextGen Smartwatch",

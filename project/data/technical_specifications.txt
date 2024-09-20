@@ -1,4 +1,4 @@
-"text": """Technical Specifications - NextGen Smartwatch
+Technical Specifications - NextGen Smartwatch
 
 Display: 1.4" AMOLED, 454 x 454 pixels
 Processor: Dual-core 1.2 GHz
@@ -11,7 +11,8 @@ Compatibility: iOS 12+ and Android 8.0+
 Dimensions: 44 x 44 x 10.7 mm
 Weight: 36g (without strap)
 
-For detailed specifications, refer to engineering document ENG-SPEC-023.""",
+For detailed specifications, refer to engineering document ENG-SPEC-023.
+
         "metadata": {
             "doc_id": "TECH-SPEC-001",
             "title": "Technical Specifications - NextGen Smartwatch",

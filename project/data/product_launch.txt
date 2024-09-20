@@ -1,4 +1,4 @@
-"text": """Product Launch: NextGen Smartwatch
+ Product Launch: NextGen Smartwatch
 
 Key Features:
 1. Advanced Health Monitoring: Tracks heart rate, blood oxygen, and stress levels.
@@ -15,7 +15,8 @@ Target Market:
 Launch Date: October 15, 2024
 Retail Price: $299.99
 
-For more information, contact product@nextgentech.com""",
+For more information, contact product@nextgentech.com
+
         "metadata": {
             "doc_id": "PROD-LAUNCH-001",
             "title": "Product Launch: NextGen Smartwatch",

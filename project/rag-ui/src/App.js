@@ -40,12 +40,23 @@ function App() {
     setIsLoading(false);
   };
 
+  const renderMessageContent = (content) => {
+    return content.split('\n').map((line, index) => (
+      <React.Fragment key={index}>
+        {line}
+        <br />
+      </React.Fragment>
+    ));
+  };
+
   return (
     <div className="App">
       <div className="chat-container">
         {messages.map((message, index) => (
           <div key={index} className={`message ${message.role}`}>
-            <div className="message-content">{message.content}</div>
+            <div className="message-content">
+              {renderMessageContent(message.content)}
+            </div>
           </div>
         ))}
         {isLoading && <div className="message bot">

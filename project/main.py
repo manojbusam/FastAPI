@@ -66,24 +66,26 @@ def index_documents(documents: List[Dict]):
 
     logger.info(f"Indexing complete. Total documents indexed: {len(documents)}")
 
-# Output parser function
+# Output parser function for better formatting
 def parse_output(text):
     lines = text.split('\n')
     parsed_text = []
-    current_section = ""
+    
     for line in lines:
-        if line.strip():
-            if line.strip().startswith(('1.', '2.', '3.', '4.', '5.')):
-                current_section = line.strip()
-                parsed_text.append(current_section)
-            elif line.strip().startswith('-'):
-                parsed_text.append(f"   {line.strip()}")
-            else:
-                parsed_text.append(line.strip())
-    return '\n'.join(parsed_text)
+        stripped_line = line.strip()
+        if stripped_line.startswith(('1.', '2.', '3.', '4.', '5.')):
+            parsed_text.append(f"\nRegarding {stripped_line[2:].strip()}:")  # Remove number and period
+        elif stripped_line.startswith('-'):
+            bullet_point = stripped_line[1:].strip()
+            parsed_text.append(f"• {bullet_point.capitalize()}")
+        elif stripped_line:
+            parsed_text.append(stripped_line)
+    
+    response = "Here's what I found about the NextGen Smartwatch:\n\n" + "\n".join(parsed_text)
+    return response
 
 # Index documents on startup
-documents = load_and_chunk_documents("./data")
+documents = load_and_chunk_documents("./project/data")
 index_documents(documents)
 
 class Query(BaseModel):
@@ -105,7 +107,7 @@ async def query_documents(query: Query):
         "query": query.text,
         "results": [
             {
-                "text": parse_output(doc),
+                "text": parse_output(doc),  # Ensure this function formats without extra prefixes
                 "metadata": meta,
                 "distance": dist
             }
